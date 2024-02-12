@@ -1,5 +1,5 @@
 # Chatbot with PyTorch
-This project presents a straightforward implementation of a contextual chatbot using PyTorch, designed to be accessible for beginners. The chatbot is built on a feed-forward neural network with two hidden layers, demonstrating the core principles of chatbot development.
+This project presents a straightforward implementation of a contextual chatbot using PyTorch, designed to be accessible for all. The chatbot is built on a feed-forward neural network with two hidden layers, demonstrating the core principles of chatbot development.
 
 Key Features:
 - Simplicity: The codebase is kept simple and readable to help beginners understand the mechanics of chatbots.
