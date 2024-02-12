@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey there",
+        "Good day, how are you?",
+        "Hello, is someone there?",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Good to see you! What can I do for you?",
+        "Hey! How's it going?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you", "Farewell", "Catch you later"],
+      "responses": [
+        "Goodbye! Looking forward to our next chat.",
+        "Farewell! Have a great day ahead.",
+        "See you soon! Don't be a stranger."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks a bunch", "Really appreciate it", "Thanks a million"],
+      "responses": ["You're very welcome!", "Glad I could help!", "It's my pleasure to assist!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What can I buy here?",
+        "Show me what you've got",
+        "List your products, please"
+      ],
+      "responses": [
+        "We offer a wide range of coffee, tea, and pastries.",
+        "Currently, we have an assortment of coffee blends, herbal teas, and freshly baked goods."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Which payment methods do you support?",
+        "Can I use Apple Pay here?",
+        "Is cash accepted?"
+      ],
+      "responses": [
+        "We support various payment methods including VISA, Mastercard, Paypal, and even Apple Pay.",
+        "Yes, we accept both cash and digital payments like Apple Pay."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "What's the estimated delivery time?",
+        "Can I track my order?",
+        "How soon will my order arrive?"
+      ],
+      "responses": [
+        "Orders typically arrive within 3-5 business days.",
+        "You can track your order with the tracking number provided after shipping."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "I need a laugh, tell me a joke",
+        "Feeling blue, know any jokes?",
+        "What's something funny?"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "I told my wife she should embrace her mistakes. She gave me a hug."
+      ]
+    }
+  ]
+}
