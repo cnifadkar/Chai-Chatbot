@@ -49,10 +49,14 @@ Run the following command to start the training process. This script reads the `
 python train.py
 
 
-Chatting with the Chatbot:
-After training, run python chat.py to start a chat session with the chatbot. The script loads the trained model and interacts with the user in the console.
+### Chatting with the Chatbot
 
-Customization:
+After training, run the following command to start a chat session with the chatbot. The script loads the trained model and interacts with the user in the console:
+
+```bash
+python chat.py
+
+### Customization:
 To customize the chatbot:
 
 1. Edit the intents.json file to include your desired conversation patterns and responses.
